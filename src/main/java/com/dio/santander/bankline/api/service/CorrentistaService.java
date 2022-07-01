@@ -29,6 +29,7 @@ public class CorrentistaService {
 		correntistaRepository.save(correntista);
 	}
 
+	
 	public void delete(Integer id) {
 		correntistaRepository.deleteById(id);
 		
